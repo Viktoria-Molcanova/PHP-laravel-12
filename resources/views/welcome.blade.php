@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+Добрый день, {{ $user->name }}, спасибо за регистрацию.
+</body>
+</html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
