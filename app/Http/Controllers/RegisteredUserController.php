@@ -6,7 +6,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
-class RegisteredUserController
+class RegisteredUserController extends Controller
 {
     public function store(Request $request): \Illuminate\Http\JsonResponse
     {
